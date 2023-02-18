@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main(0)
+int main(void)
 {
 	int n, m;
 
@@ -20,11 +20,11 @@ int main(0)
 				if (n != 56 || m != 57)
 				{
 					putchar(',');
-					putchar('');
+					putchar(' ');
 				}
 			}
 		}
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
