@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main(0)
+int main(void)
 {
 	int n;
 
@@ -15,7 +15,7 @@ int main(0)
 		if (n != 57)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
